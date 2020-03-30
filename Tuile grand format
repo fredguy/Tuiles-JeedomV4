@@ -1,0 +1,35 @@
+<style>  
+.bg-textjar {
+background-color: #3C4F00;
+padding: 0px 0px 0px 0px;
+position: relative;
+width: 450px;
+height: 200px;
+overflow: hidden; 
+}
+
+.bg-textjar::after {
+color: #bada55;
+content: attr(data-bg-text);
+display: block;
+font-size: 5em;
+line-height: 1;
+position: relative;
+bottom: 62%;
+text-align: right;
+width:100%;
+word-break: normal;
+opacity : 1; transition: all 3s;
+overflow: hidden;  }  
+
+.bg-textjar:active:after {
+  opacity : 1;   
+  transition: 0s;   
+  text-shadow: 0 0 20px black;   
+  color:black;
+  }  
+</style>   
+<div class="bg-textjar" data-bg-text="Garden"><div style=" width:450px; text-align:left; font-size:9em; color:orange ;text-shadow: 0 0 20px orange;" 
+class="nature-tree101 ">
+</div> 
+</div>
